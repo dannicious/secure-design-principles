@@ -126,7 +126,7 @@ public class Main {
                 continue;
             }
 
-            // 2FA check
+           
             System.out.print("Enter 2FA code: ");
             String input2fa = scanner.nextLine();
             if (!security.check2FA(input2fa)) {
@@ -145,3 +145,4 @@ public class Main {
         scanner.close();
     }
 }
+
